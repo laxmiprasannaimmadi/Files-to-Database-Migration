@@ -53,6 +53,7 @@ select count(*) from products; --1345
 
 
 **Technologies Used**
+
 Programming Language – Python
 
 Pandas – For Converting CSV to Dataframe and then load the Dataframe into Postgres Database
