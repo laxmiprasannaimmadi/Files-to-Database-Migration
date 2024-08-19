@@ -40,10 +40,15 @@ In postgres tables, we need to confirm that the schema structure (column name, d
 Take the count of records in the CSV files and compare it to the number of records in the PostgreSQL tables. The count should match the numbers below.
 
 select count(*) from orders; --68883
+
 select count(*) from order_items; --172198
+
 select count(*) from categories; --58
+
 select count(*) from customers; --12435
+
 select count(*) from departments; --6
+
 select count(*) from products; --1345
 
 
